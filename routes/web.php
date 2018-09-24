@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/order_pembelian/', function () {
+    return view('orderpembelian');
+});
