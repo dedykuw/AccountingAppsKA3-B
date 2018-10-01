@@ -1,3 +1,4 @@
+<link href="{asset('css/app.css')}" rel="stylesheet"/>
 <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="70%" cellspacing="0">
               <thead>
