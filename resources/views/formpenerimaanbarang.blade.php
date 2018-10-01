@@ -20,7 +20,7 @@
                 </tr>
               </thead>
 		</table>
-		<br>
+		<br><br>
 <table style="width: 738px; height: 131px;">
 <tbody>
 <tr style="height: 6px;">
