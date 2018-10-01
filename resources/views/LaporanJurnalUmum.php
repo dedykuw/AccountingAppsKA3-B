@@ -1,3 +1,9 @@
+<html>
+	<head>
+		<link href="{{ asset('css/app') }}" rel="stylesheet"/>
+	</head>
+	<body>
+	
 <div class="table-responsive">
 <h2> Jurnal Umum </h2>
 	<table class="table table-bordered" id="dataTable" width="35%" cellspacing="0">
@@ -90,3 +96,5 @@
 			<button href="" class="btn btn-danger">Batal</button>
 			<button href="" class="btn btn-danger">Hapus Baris</button>
 </div>
+</body>
+</html>
