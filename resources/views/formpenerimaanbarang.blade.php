@@ -20,8 +20,8 @@
                 </tr>
               </thead>
 		</table>
-		<br><br>
-<table style="width: 738px; height: 131px;">
+		<br>
+		<table style="width: 738px; height: 131px;">
 <tbody>
 <tr style="height: 6px;">
 <td style="width: 68px; height: 6px; text-align: center;">No. Barang</td>
