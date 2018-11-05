@@ -1,0 +1,102 @@
+<link href="{{ asset('css/app.css')}}" rel="stylesheet"/> 
+
+<div class="table-responsive">
+<h1>Penyesuaian Persediaan</h1>
+
+		<br>
+			<table class="table table-bordered" id="dataTable" width="70%" cellspacing="0">
+			<thead>
+				<tr>
+                  <td>Ref <td>: </td> <td><input width="100%"></input></td></td>    
+                </tr>
+				<tr>
+                  <td>Tanggal <td>: </td> <td><input type ="date" class="form-control" name="" value='' width="100%"></input></td></td>      
+                </tr>
+				<tr>
+                  <td>Keterangan <td>: </td> <td><input width="100%"></input></td></td>      
+                </tr>
+              </thead>
+             
+		</table>
+		<form action="prosesdata.php" method="post">
+		<table border="1" width="300">
+			</thead>
+				<tr>
+					<td>Kode</td>
+					<td>Nama Barang</td>
+					<td>Jumlah</td>
+					<td>Satuan</td>
+					<td>Akkun</td>
+					<td>Job</td>
+					<td>Dep</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+				</tr>
+				<tr>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+				</tr>
+				<tr>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+				</tr>
+				<tr>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+				</tr>
+				<tr>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+				</tr>
+				<tr>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+				</tr>
+				<tr>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+					<td><input width="100%"></input></td>
+				</tr>
+			</tbody>
+			</table>
+			<button name='submit' value='insert' class="btn btn-primary" type="submit">Rekam</button>
+				<a href='pemindahanbarang.php' class='btn btn-danger'>Batal</a>
+</div>              
